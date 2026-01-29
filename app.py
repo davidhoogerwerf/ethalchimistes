@@ -57,7 +57,7 @@ defis = [
 
 # Interface
 st.title("🌈 Aux Éthalchimistes ! 🌈")
-st.write("*La science exacte de la dérive entre amis.*🧪")
+st.write("🧪*La science exacte de la dérive entre amis.*")
 
 # Initialisation de la session pour garder le défi affiché
 if 'current_defi' not in st.session_state:
