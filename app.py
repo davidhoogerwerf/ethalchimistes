@@ -37,7 +37,7 @@ st.markdown("""
 
 # Ta base de données de défis
 defis = [
-    {"titre": "Précision Optique", "texte": "Décontamination immédiate des verres ! Buvez autant de gorgées qu'il y a de binoclards aux lunettes salles autour de la table. Les malpropres, nettoyez vos lunettes.", "stade": "Filtration", "icone": "👓"},
+    {"titre": "Précision Optique", "texte": "Décontamination immédiate des verres ! Buvez autant de gorgées qu'il y a de binoclards aux lunettes sales autour de la table. Les malpropres, nettoyez vos lunettes.", "stade": "Filtration", "icone": "👓"},
     {"titre": "Le Cobaye", "texte": "Désignez celui qui serait le premier à boire une potion louche. Il boit 2 gorgées.", "stade": "Filtration", "icone": "🧪"},
     {"titre": "Analyse de Matière", "texte": "Tous ceux qui portent du noir doivent vider le fond de leur éprouvette.", "stade": "Filtration", "icone": "⚗️"},
     {"titre": "L'Infiltré", "texte": "Cite 3 pays commençant par B en 5 sec, sinon tu sers tout le monde pendant 10 min.", "stade": "Filtration", "icone": "🔍"},
