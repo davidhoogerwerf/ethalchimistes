@@ -1,8 +1,19 @@
 import streamlit as st
 import random
+from PIL import Image # Ajoute cette ligne tout en haut
+
+# Charger l'image
+try:
+    img = Image.open("Ethalchimistes_Logo.png")
+except:
+    img = "🧪" # Emoji de secours si l'image ne charge pas
 
 # Configuration de la page
-st.set_page_config(page_title="Aux Éthalchimistes !", page_icon="🧪", layout="centered")
+st.set_page_config(
+    page_title="Aux Éthalchimistes !", 
+    page_icon=img, # On utilise l'objet image ici
+    layout="centered"
+)
 
 # Style CSS pour l'ambiance Laboratoire sombre
 st.markdown("""
@@ -79,3 +90,5 @@ st.markdown(f"""
         <p style="font-size: 1.2em;">{d['texte']}</p>
     </div>
     """, unsafe_allow_html=True)
+
+st.image("Ethalchimistes_Logo.png", use_container_width=True)
