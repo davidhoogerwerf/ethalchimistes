@@ -90,5 +90,3 @@ st.markdown(f"""
         <p style="font-size: 1.2em;">{d['texte']}</p>
     </div>
     """, unsafe_allow_html=True)
-
-st.image("Ethalchimistes_Logo.png", use_container_width=True)
