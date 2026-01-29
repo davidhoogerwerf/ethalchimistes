@@ -70,12 +70,12 @@ if st.session_state.current_defi is None and not st.session_state.game_over:
     st.markdown("""
         <div class="card">
             <div class="stade-badge">Accueil</div>
-            <h2 style="color: #f39c12;">Bienvenue au Laboratoire 🧪</h2>
-            <p style="font-size: 1.2em;">Préparez vos fioles et vos éprouvettes. <br> Êtes-vous prêts pour l'expérience ?</p>
+            <h2 style="color: #f39c12;">Bienvenue à la Taverne ! 🧪</h2>
+            <p style="font-size: 1.2em;">Préparez vos bites et vos couteaux. <br> A vos bières bandes de tartiflettes...</p>
         </div>
         """, unsafe_allow_html=True)
     
-    if st.button("LANCER L'EXPÉRIENCE"):
+    if st.button("LET'S GO !"):
         st.session_state.current_defi = st.session_state.pioche.pop()
         st.rerun()
 
