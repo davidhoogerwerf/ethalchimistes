@@ -48,12 +48,14 @@ st.markdown("""
 
 # Ta base de données de défis
 defis = [
-    {"titre": "Précision Optique", "texte": "Décontamination immédiate des verres ! Buvez autant de gorgées qu'il y a de binoclards aux lunettes sales autour de la table. Les malpropres, nettoyez vos lunettes.", "stade": "Filtration", "icone": "👓"},
-    {"titre": "L'Écho d'Istanbul", "texte": "Qui dit 'Istanbul' ?! Les perdants boivent autant de gorgées qu'il y a de cobayes lents autour de la table.", "stade": "Ébullition", "icone": "🕌"},
-    {"titre": "Le Fournisseur de l'Ombre", "texte": "Qui dit 'l'homme au bureau de tabac' ?! Les perdants boivent autant de gorgées qu'il y a de cobayes lents autour de la table.", "stade": "Ébullition", "icone": "🚬"},
+    {"titre": "Précision Optique", "texte": "Décontamination immédiate des verres ! Buvez autant de gorgées qu'il y a de binoclards autour de la table. Les malpropres, nettoyez vos lunettes.", "stade": "Filtration", "icone": "👓"},
+    {"titre": "L'Écho d'Istanbul", "texte": "Qui dit Istanbul ?! Les perdants boivent autant de gorgées qu'il y a de cobayes lents autour de la table.", "stade": "Ébullition", "icone": "🕌"},
+    {"titre": "Le Fournisseur de l'Ombre", "texte": "Qui dit l'homme au bureau de tabac ?! Les perdants boivent autant de gorgées qu'il y a de cobayes lents autour de la table.", "stade": "Ébullition", "icone": "🚬"},
     {"titre": "Manque de Rigueur", "texte": "Le premier qui fait un 'effort' distribura 3 pénalités.", "stade": "Fusion", "icone": "👨‍🏫"},
     {"titre": "Le Cobaye", "texte": "Désignez celui qui serait le premier à boire une potion louche (Loann). Il boit 2 gorgées.", "stade": "Filtration", "icone": "🧪"},
-    {"titre": "Le Cobaye", "texte": "Désignez celui qui serait le premier à boire une potion louche. Il boit 2 gorgées.", "stade": "Filtration", "icone": "🧪"},
+    {"titre": "Le Cavalier Solitaire", "texte": "Le premier qui trouve une photo de Trump sur un cheval peut distribuer 4 pénalités.", "stade": "Distillation", "icone": "🐎"},
+    {"titre": "La Torture", "texte": "Le premier qui sort une photo d'Océane avec une tortue peut distribuer 3 pénalités. Si personne ne trouve, Océane boit pour sa discrétion.", "stade": "Distillation", "icone": "🐢"},
+    
     {"titre": "Analyse de Matière", "texte": "Tous ceux qui portent du noir doivent vider le fond de leur éprouvette.", "stade": "Filtration", "icone": "⚗️"},
     {"titre": "L'Infiltré", "texte": "Cite 3 pays commençant par B en 5 sec, sinon tu sers tout le monde pendant 10 min.", "stade": "Filtration", "icone": "🔍"},
     {"titre": "Affinité Élective", "texte": "Si tu as déjà envoyé un message à ton ex après une séance d'alchimie, bois 3 gorgées.", "stade": "Filtration", "icone": "💌"},
