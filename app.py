@@ -44,7 +44,7 @@ defis = [
     {"titre": "Affinité Élective", "texte": "Si tu as déjà envoyé un message à ton ex après une séance d'alchimie, bois 3 gorgées.", "stade": "Filtration", "icone": "💌"},
     {"titre": "L'Équilibre Instable", "texte": "Tiens sur une jambe pendant 20 sec. Si tu tombes, bois la différence.", "stade": "Ébullition", "icone": "⚖️"},
     {"titre": "Transmutation", "texte": "Échange ton verre avec celui du joueur à ta gauche.", "stade": "Ébullition", "icone": "🔄"},
-    {"titre": "Le Maître du Silence", "texte": "Interdiction de parler jusqu'au prochain tour. 2 gorgées par mot prononcé.", "stade": "Ébullition", "icone": "🤫"},
+    {"titre": "Le Maître du Silence", "texte": "Interdiction de parler jusqu'au prochain \"Ébullition\". 2 gorgées par mot prononcé.", "stade": "Ébullition", "icone": "🤫"},
     {"titre": "Duel de Regard", "texte": "Premier qui cligne des yeux boit le mélange concocté par les autres.", "stade": "Ébullition", "icone": "👀"},
     {"titre": "Le Grimoire des Secrets", "texte": "Raconte ta pire honte. Si c'est jugé 'petit', bois 4 gorgées.", "stade": "Distillation", "icone": "📜"},
     {"titre": "Test de Pureté", "texte": "Je n'ai jamais été arrêté par la police. Les coupables boivent.", "stade": "Distillation", "icone": "👮"},
@@ -71,8 +71,8 @@ if st.button("MÉLANGER LES POTIONS"):
 d = st.session_state.current_defi
 st.markdown(f"""
     <div class="card">
-        <div class="stade-badge">{d['stade']} {d['icone']}</div>
-        <h2 style="color: #f39c12;">{d['titre']}</h2>
+        <div class="stade-badge">{d['stade']}</div>
+        <h2 style="color: #f39c12;">{d['titre']} {d['icone']}</h2>
         <p style="font-size: 1.2em;">{d['texte']}</p>
     </div>
     """, unsafe_allow_html=True)
