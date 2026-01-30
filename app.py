@@ -71,7 +71,7 @@ if st.session_state.current_defi is None and not st.session_state.game_over:
     st.markdown("""
         <div class="card">
             <div class="stade-badge">Accueil</div>
-            <h2 style="color: #f39c12;">🛖Bienvenue à la Taverne !🥃</h2>
+            <h2 style="color: #f39c12;">🥃 Bienvenue à la Taverne !🛖</h2>
             <p style="font-size: 1.2em;">Préparez vos bites et vos couteaux. <br> A vos bières bande de tartiflettes sans nom...</p>
         </div>
         """, unsafe_allow_html=True)
