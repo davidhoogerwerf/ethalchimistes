@@ -32,7 +32,7 @@ defis = [
     {"titre": "Précision Optique", "texte": "Décontamination immédiate des verres ! Buvez autant de gorgées qu'il y a de binoclards. Les malpropres, nettoyez vos lunettes.", "stade": "Filtration", "icone": "👓"},
     {"titre": "L'Écho d'Istanbul", "texte": "Qui dit Istanbul ?! Les perdants boivent autant de gorgées qu'il y a de cobayes lents.", "stade": "Ébullition", "icone": "🕌"},
     {"titre": "Le Fournisseur de l'Ombre", "texte": "Qui dit l'homme au bureau de tabac ?! Les perdants boivent autant de gorgées qu'il y a de lents.", "stade": "Ébullition", "icone": "🚬"},
-    {"titre": "Manque de Rigueur", "texte": "Le premier qui fait un 'effort' distribuera 3 pénalités.", "stade": "Fusion", "icone": "👨‍🏫"},
+    {"titre": "Manque de Rigueur", "texte": "Le premier qui fait un éffort distribuera 3 pénalités.", "stade": "Fusion", "icone": "👨‍🏫"},
     {"titre": "Le Cobaye", "texte": "Désignez celui qui serait le premier à boire une potion louche (Loann). Il boit 2 gorgées.", "stade": "Filtration", "icone": "🧪"},
     {"titre": "Le Cavalier Solitaire", "texte": "Le premier qui trouve une photo de Trump sur un cheval peut distribuer 4 pénalités.", "stade": "Distillation", "icone": "🐎"},
     {"titre": "La Torture", "texte": "Le premier qui sort une photo d'Océane avec une tortue peut distribuer 3 pénalités.", "stade": "Distillation", "icone": "🐢"},
