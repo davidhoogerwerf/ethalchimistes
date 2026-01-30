@@ -24,7 +24,7 @@ st.markdown("""
         border: 1px solid #f39c12; text-align: center; margin-bottom: 20px;
     }
     .stade-badge { font-size: 0.8em; text-transform: uppercase; color: #f39c12; letter-spacing: 2px; }
-    .title { text-align: center; }
+    h1 { text-align: center; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -64,15 +64,15 @@ if 'pioche' not in st.session_state:
     st.session_state.game_over = False
 
 # --- INTERFACE ---
-st.title("🌈🍷 Aux Éthalchimistes ! 🍺🌈")
+st.title("💥🍻 Aux Éthalchimistes ! 🥂💥")
 
 # ÉCRAN DE DÉBUT
 if st.session_state.current_defi is None and not st.session_state.game_over:
     st.markdown("""
         <div class="card">
             <div class="stade-badge">Accueil</div>
-            <h2 style="color: #f39c12;">Bienvenue à la Taverne !🍻</h2>
-            <p style="font-size: 1.2em;">Préparez vos bites et vos couteaux. <br> A vos bières bandes de tartiflettes...</p>
+            <h2 style="color: #f39c12;">🛖Bienvenue à la Taverne !🥃</h2>
+            <p style="font-size: 1.2em;">Préparez vos bites et vos couteaux. <br> A vos bières bande de tartiflettes sans nom...</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -85,12 +85,12 @@ elif st.session_state.game_over:
     st.markdown("""
         <div class="card">
             <div class="stade-badge">Fin de l'expérience</div>
-            <h2 style="color: #f39c12;">Laboratoire Fermé 💀</h2>
-            <p style="font-size: 1.2em;">Le grimoire est vide et vos foies sont en fusion.<br>Voulez-vous relancer une nouvelle série de tests ?</p>
+            <h2 style="color: #f39c12;">Établissement Fermé 💀</h2>
+            <p style="font-size: 1.2em;">Le stock de la taverne est tristement vide...<br>Vos foies ont-il encore soif ?!?</p>
         </div>
         """, unsafe_allow_html=True)
     
-    if st.button("RECOMMENCER UNE PARTIE"):
+    if st.button("REFAIRE LE STOCK !"):
         st.session_state.pioche = list(defis)
         random.shuffle(st.session_state.pioche)
         st.session_state.current_defi = None
@@ -111,7 +111,7 @@ else:
         </div>
         """, unsafe_allow_html=True)
 
-    if st.button("PROCHAINE POTION ⚗️"):
+    if st.button("PROCHAIN MÉLANGE ! 🍸"):
         if len(st.session_state.pioche) > 0:
             st.session_state.current_defi = st.session_state.pioche.pop()
             st.rerun()
