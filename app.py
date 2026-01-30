@@ -24,7 +24,7 @@ st.markdown("""
         border: 1px solid #f39c12; text-align: center; margin-bottom: 20px;
     }
     .stade-badge { font-size: 0.8em; text-transform: uppercase; color: #f39c12; letter-spacing: 2px; }
-    .title { text-align: center }
+    .title { text-align: center; }
     </style>
     """, unsafe_allow_html=True)
 
