@@ -14,6 +14,12 @@ st.set_page_config(page_title="Aux Éthalchimistes !", page_icon=img, layout="ce
 # Style CSS
 st.markdown("""
     <style>
+    
+    .card:hover {
+        transition: transform 0.3s ease;
+        transform: scale(1.02);
+        box-shadow: 0px 0px 20px #f39c12;
+    }
     .main { background-color: #0e1117; color: #e0e0e0; }
     .stButton>button {
         width: 100%; border-radius: 20px; height: 3em;
@@ -25,6 +31,24 @@ st.markdown("""
     }
     .stade-badge { font-size: 0.8em; text-transform: uppercase; color: #f39c12; letter-spacing: 2px; }
     h1 { text-align: center; }
+            
+    /* Définition de l'animation de fondu */
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* On applique l'animation à la classe .card */
+    .card {
+        animation: fadeIn 0.5s ease-out;
+        /* Tes autres styles existants... */
+        padding: 30px;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid #f39c12;
+        text-align: center;
+        margin-bottom: 20px;
+    }
     </style>
     """, unsafe_allow_html=True)
 
